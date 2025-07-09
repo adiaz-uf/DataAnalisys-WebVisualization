@@ -9,7 +9,7 @@ The dashboard consists of three distinct visualizations providing insights into 
 ## 🌟 Features
 
 ### 1️⃣ Weekly Average Rating Trend
-![Weekly Average Rating Trend](imgs/pie_graph.png)
+![Weekly Average Rating Trend](imgs/spline_graph.png)
 
 - **Visualization:** Spline chart showing average rating trends  
 - **Timeframe:** Weekly analysis  
@@ -33,7 +33,7 @@ The dashboard consists of three distinct visualizations providing insights into 
 ---
 
 ### 3️⃣ Course Rating Distribution
-![Course Rating Distribution](imgs/spline_graph.png)
+![Course Rating Distribution](imgs/pie_graph.png)
 
 - **Visualization:** Interactive pie chart
 - **Data Processing:**
