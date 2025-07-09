@@ -9,7 +9,7 @@ The dashboard consists of three distinct visualizations providing insights into 
 ## 🌟 Features
 
 ### 1️⃣ Weekly Average Rating Trend
-![Weekly Average Rating Trend](https://imgs/pie_graph.png)
+![Weekly Average Rating Trend](imgs/pie_graph.png)
 
 - **Visualization:** Spline chart showing average rating trends  
 - **Timeframe:** Weekly analysis  
@@ -21,7 +21,7 @@ The dashboard consists of three distinct visualizations providing insights into 
 ---
 
 ### 2️⃣ Monthly Review Volume by Course
-![Monthly Review Volume by Course](https://imgs/stream_graph.png)
+![Monthly Review Volume by Course](imgs/stream_graph.png)
 
 - **Visualization:** Streamgraph showing review volume distribution
 - **Timeframe:** Monthly analysis
@@ -33,7 +33,7 @@ The dashboard consists of three distinct visualizations providing insights into 
 ---
 
 ### 3️⃣ Course Rating Distribution
-![Course Rating Distribution](https://imgs/spline_graph.png)
+![Course Rating Distribution](imgs/spline_graph.png)
 
 - **Visualization:** Interactive pie chart
 - **Data Processing:**
@@ -42,17 +42,6 @@ The dashboard consists of three distinct visualizations providing insights into 
 - **Key Insight:** Illustrates the market share of different courses based on review volume
 
 ---
-
-## ⚙️ Technical Implementation
-
-### 📈 Data Processing
-```python
-# Example from 0-spline-graph-av-rating-week.py
-import pandas
-
-data = pandas.read_csv("reviews.csv", parse_dates=["Timestamp"])
-data["Week"] = data["Timestamp"].dt.strftime("%Y-%U")
-week_average = data.groupby(["Week"]).mean(numeric_only=True)
 
 ## 📦 Requirements
 - Python 3.7+
