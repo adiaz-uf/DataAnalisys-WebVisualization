@@ -72,11 +72,6 @@ python 0-spline-graph-av-rating-week.py
 
 ---
 
-## 🧩 Technical Architecture
-Diagram and code structure (to be added).
-
----
-
 ## 🎨 Customization Options
 - **Chart Styling:** Modify chart definitions in each script
 - **Time Periods:** Adjust date formatting strings to change granularity
